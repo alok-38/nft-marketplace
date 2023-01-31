@@ -14,3 +14,45 @@ body {
     font-family: Helvetica sans-serif;
     background-color: #020824;
 }
+
+img {
+    display: block;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    color: aliceblue;
+}
+
+h1,
+h2 {
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 2em;
+    /* is positioned relative to its normal position */
+    position: relative;
+    display: inline-block;
+}
+
+/* Creating the heading text decoration
+Adding it to all 'h2' elements
+except for the ones marked in the 'not'
+selector */
+h2:not(.explore h2, .trial h2, footer h2)::before,
+.explore h3::before {
+    content: '';
+    background: linear-gradient(90deg,
+            rgba(72, 252, 139, 0) 0%,
+            #48fc8b 50%,
+            rgba(72, 252, 139, 0) 100%);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -0.5em;
+    width: 100%;
+    height: 0.1em;
+}
