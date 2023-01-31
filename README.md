@@ -36,7 +36,7 @@
 
 ## About The Project
 
-![Screen Shot](./img/NFT.webp)
+![screenshots](./img/NFT.webp)
 
 ## Built With
 
