@@ -4,10 +4,10 @@
     <img src="./assets/images/Screenshot1.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Alokananda Y | Single page portfolio site</h3>
+  <h3 align="center">NFT Marketplace</h3>
 
   <p align="center">
-    An Awesome single page portfolio site to showcase my skills and projects!
+    An Awesome website for NFT marketplace!
     <br/>
     <br/>
     <a href="https://github.com/alok-38/portfolio-website"><strong>Explore the docs »</strong></a>
