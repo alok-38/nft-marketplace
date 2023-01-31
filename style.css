@@ -261,4 +261,44 @@ h1 {
     margin: 10em 0 4em 0;
 }
 
-.services .card {}
+.services .card {
+    padding: 1em;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    background: rgba(127, 127, 127, 0.25);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0, 18);
+    position: relative;
+}
+
+.services .card img {
+    width: 8em;
+    margin: -5em 0 1em 0;
+}
+
+.services .card .light {
+    background-color: #48fc8b;
+    width: 6em;
+    height: 6em;
+    border-radius: 50%;
+    position: absolute;
+    top: -2em;
+    left: 50%;
+    transform: translate(-50%);
+    filter: blur(15px);
+    /* make the image appear in the front */
+    z-index: -1;
+}
+
+/* Adding light colors to all cards */
+.services .card:nth-child(1) .light {
+    background-color: #bcb83d;
+}
+
+.services .card:nth-child(2) .light {
+    background-color: #6e3dbc;
+}
+
+.services .card:nth-child(3) .light {
+    background-color: #ef3636;
+}
