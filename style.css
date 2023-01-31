@@ -1,0 +1,13 @@
+*,
+*::before,
+*::after {
+    /* sets how the total width and height of an element is calculated. */
+    box-sizing: border-box;
+}
+
+/* Resetting default styles */
+body {
+    margin: 0;
+    font-family: Helvetica sans-serif;
+    background-color: #020824;
+}
