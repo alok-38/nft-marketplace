@@ -1,7 +1,10 @@
+/* Apply not only to the universal selector, but
+also include the pseudoelements */
 *,
 *::before,
 *::after {
     /* sets how the total width and height of an element is calculated. */
+    /* Include both the border and the padding. Take into account */
     box-sizing: border-box;
 }
 
