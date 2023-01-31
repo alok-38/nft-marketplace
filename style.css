@@ -103,7 +103,7 @@ header {
 }
 
 .container {
-    max-width: 90%;
+    max-width: 80%;
     margin: 0 auto;
     padding: 0 2em;
 }
@@ -114,6 +114,7 @@ header .container {
     align-items: center;
     flex-direction: column;
     min-height: 100vh;
+    width: 80%;
 }
 
 /* Creating the primary and 
@@ -143,10 +144,6 @@ secondary button styles */
 .btn-secondary:hover {
     background-color: #fff;
     color: #111;
-}
-
-.btn-group .btn {
-    margin: 1em;
 }
 
 /* Navbar */
@@ -240,7 +237,8 @@ h1 {
     margin: 0 auto;
 }
 
-.header-body .btn, .trial .btn {
+.header-body .btn,
+.trial .btn {
     font-size: 1.1em;
 }
 
@@ -262,3 +260,5 @@ h1 {
     gap: 2em;
     margin: 10em 0 4em 0;
 }
+
+.services .card {}
