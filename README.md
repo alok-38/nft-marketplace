@@ -1,7 +1,7 @@
 <br/>
 <p align="center">
   <a href="https://github.com/alok-38/portfolio-website">
-    <img src="./assets/images/Screenshot1.png" alt="Logo" width="80" height="80">
+    <img src="./img/crystal1.jpg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">NFT Marketplace</h3>
@@ -37,7 +37,6 @@
 ## About The Project
 
 ![Screen Shot](./img/NFT.webp)
-![Screen Shot](./img/NFT1.webp)
 
 ## Built With
 
