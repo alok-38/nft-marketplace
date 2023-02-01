@@ -193,7 +193,7 @@ nav li {
 /* Styling the middle part of the header */
 .header-body {
     min-height: 60vh;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     margin: 3em 0 1em 0;
@@ -244,6 +244,10 @@ h1 {
 
 .header-body .btn-group {
     margin: 3em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
 }
 
 /* Services Section */
