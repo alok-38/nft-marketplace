@@ -95,6 +95,7 @@ footer {
 
 /* Header and the container */
 header {
+    display: flex;
     background: url(./img/background.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -615,4 +616,59 @@ the icons excep the first one */
 
 .artists .card:nth-child(4) .profile-img {
     border-color: rgb(78, 13, 48);
+}
+
+.artists .card:nth-child(4) .card-btn {
+    border-color: #472847;
+}
+
+/* Trial Section */
+.trial {
+    background: url(./img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 6em 1em;
+}
+
+.trial p {
+    margin: 2em auto 3em auto;
+    max-width: 70ch;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+footer li {
+    margin: 1em 0;
+}
+
+footer li a {
+    color: #ccc;
+}
+
+footer li a:hover {
+    text-decoration: underline;
+}
+
+footer input {
+    background-color: #1b2039;
+    border: none;
+    padding: 0.7em;
+    border-radius: 5px;
+}
+
+footer hr {
+    border: 1px #1b2039 solid;
+    margin: 1.5em 0;
+}
+
+footer p {
+    margin: 1em 0;
 }
